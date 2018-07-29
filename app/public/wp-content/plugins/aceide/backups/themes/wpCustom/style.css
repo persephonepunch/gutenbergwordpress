@@ -1,0 +1,179 @@
+/*
+Theme_Name: Base
+Theme URI: http://example.com
+Version: 1.0
+Author: You!
+Author URI: http://mywebsite.com
+
+Description: A short description of your theme, licences, and whatever else you want people to know about the theme.
+
+*/
+
+
+/*
+ * Recording what colours a theme uses is useful for quick reference when
+ * creating styles
+ */
+/* ==|== &colours ==============================================================
+
+	 colour													#
+
+	 ========================================================================== */
+
+/*
+ * An index will help you organise and find your styles, as well as show others
+ * where to add new styles
+ */
+/* ==|== &INDEX ================================================================
+
+	1. BASE STYLES
+		1.a Reset
+
+	2. THEME STYLES
+		2.a Main Structure
+			2.a.i Header
+			2.a.ii Primary Content
+			2.a.iii Secondary Content
+			2.a.iv Footer
+		2.b Navigation
+		2.c Forms
+		2.d Pagination
+		2.e Comments
+			2.e.i Comment
+			2.e.ii Comment Form
+
+	 ========================================================================== */
+
+/* =============================================================================
+	  &Reset
+	 ========================================================================== */
+		* { margin: 0; padding: 0;}
+		$color_orange: #f37558;
+		$headline-color: #f37558;
+		$base-font-size: 16px;
+		$base-font-family: aktiv-grotesk, sans-serif;
+
+
+	
+
+
+
+
+
+
+/* =============================================================================
+	 &Main Structure
+	 ========================================================================== */
+	/*_typography.scss*/
+	body {
+		h1, h2, h3, h4, h5, h6: $headline-color;
+		font-size: $base-font-size;
+		font-family: $base-font-family;
+		font-weight: $base-font-weight;
+		line-height: 1.6;
+		}
+	
+
+
+
+
+	 /* -----------------------------------------------------------------------------
+	 &Header
+	 -------------------------------------------------------------------------- */
+	
+	  h1 {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		color: #f37558;
+		font-size: 43px;
+		line-height: 45px;
+		font-weight: 500;
+		text-transform: uppercase;
+	  }
+	  
+	  h2 {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		color: #f37558;
+		font-size: 32px;
+		line-height: 36px;
+		font-weight: 200;
+		text-transform: uppercase;
+	  }
+	  
+	  h4 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: #f37558;
+		font-size: 17px;
+		line-height: 24px;
+		font-weight: 300;
+		text-transform: uppercase;
+	  }
+	  
+	  p {
+		margin-bottom: 10px;
+		font-family: aktiv-grotesk, sans-serif;
+		color: #616167;
+		font-size: 16px;
+		line-height: 26px;
+	  }
+	  
+	  blockquote {
+		margin-bottom: 10px;
+		padding: 0px 20px;
+		border-left: 2px solid #f37558;
+		font-family: aktiv-grotesk, sans-serif;
+		color: #f37558;
+		font-size: 27px;
+		line-height: 37px;
+		font-style: italic;
+	  }
+	  
+	  .banner {
+		position: relative;
+		height: 100vh;
+		background-color: #212127;
+	  }
+
+/* -----------------------------------------------------------------------------
+	 &Primary Content
+	 -------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------
+	 &Secondary Content
+	 -------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------
+	 &Footer
+	 -------------------------------------------------------------------------- */
+
+
+/* =============================================================================
+	 &Navigation
+	 ========================================================================== */
+
+
+/* =============================================================================
+	 &Forms
+	 ========================================================================== */
+
+
+/* =============================================================================
+	 &Pagination
+	 ========================================================================== */
+
+
+/* =============================================================================
+	 &Comments
+	 ========================================================================== */
+ /* -----------------------------------------------------------------------------
+	 &Comment
+	 -------------------------------------------------------------------------- */
+
+
+ /* -----------------------------------------------------------------------------
+	 &Comment Form
+	 -------------------------------------------------------------------------- */
